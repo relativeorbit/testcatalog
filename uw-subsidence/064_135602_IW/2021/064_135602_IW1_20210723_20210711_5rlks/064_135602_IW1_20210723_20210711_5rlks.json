@@ -224,41 +224,6 @@
     }
   ],
   "assets": {
-    "conncomp": {
-      "href": "/vsizip//vsicurl/https://d3gm2hf49xd6jj.cloudfront.net/fa8bf7c4-6276-46b6-a51a-da005e3c334e/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F.zip/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F_conncomp.tif",
-      "type": "image/tiff; application=geotiff",
-      "roles": [
-        "data"
-      ]
-    },
-    "corr": {
-      "href": "/vsizip//vsicurl/https://d3gm2hf49xd6jj.cloudfront.net/fa8bf7c4-6276-46b6-a51a-da005e3c334e/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F.zip/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F_corr.tif",
-      "type": "image/tiff; application=geotiff",
-      "roles": [
-        "data"
-      ]
-    },
-    "dem": {
-      "href": "/vsizip//vsicurl/https://d3gm2hf49xd6jj.cloudfront.net/fa8bf7c4-6276-46b6-a51a-da005e3c334e/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F.zip/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F_dem.tif",
-      "type": "image/tiff; application=geotiff",
-      "roles": [
-        "data"
-      ]
-    },
-    "lv_phi": {
-      "href": "/vsizip//vsicurl/https://d3gm2hf49xd6jj.cloudfront.net/fa8bf7c4-6276-46b6-a51a-da005e3c334e/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F.zip/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F_lv_phi.tif",
-      "type": "image/tiff; application=geotiff",
-      "roles": [
-        "data"
-      ]
-    },
-    "lv_theta": {
-      "href": "/vsizip//vsicurl/https://d3gm2hf49xd6jj.cloudfront.net/fa8bf7c4-6276-46b6-a51a-da005e3c334e/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F.zip/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F_lv_theta.tif",
-      "type": "image/tiff; application=geotiff",
-      "roles": [
-        "data"
-      ]
-    },
     "unwrapped": {
       "href": "/vsizip//vsicurl/https://d3gm2hf49xd6jj.cloudfront.net/fa8bf7c4-6276-46b6-a51a-da005e3c334e/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F.zip/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F_unw_phase.tif",
       "type": "image/tiff; application=geotiff",
@@ -268,7 +233,7 @@
     },
     "wrapped": {
       "href": "/vsizip//vsicurl/https://d3gm2hf49xd6jj.cloudfront.net/fa8bf7c4-6276-46b6-a51a-da005e3c334e/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F.zip/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F_wrapped_phase.tif",
-      "type": "image/tiff; application=geotiff",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
       "roles": [
         "data"
       ]
