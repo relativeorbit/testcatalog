@@ -1,0 +1,98 @@
+{
+  "type": "Collection",
+  "id": "uw-subsidence",
+  "stac_version": "1.0.0",
+  "description": "SAR Interferometry (InSAR) products and their associated files. The source data for these products are Sentinel-1 bursts, extracted from Single Look Complex (SLC) products processed by ESA, and they were processed using InSAR Scientific Computing Environment version 2 (ISCE2) software.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./064_135602_IW/catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/sat/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/mgrs/v1.0.0/schema.json"
+  ],
+  "title": "ASF S1 BURST INTERFEROGRAMS",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "keywords": [
+    "sentinel",
+    "copernicus",
+    "esa",
+    "sar"
+  ],
+  "providers": [
+    {
+      "name": "ESA",
+      "roles": [
+        "licensor",
+        "producer"
+      ],
+      "url": "https://sentinel.esa.int/web/sentinel/missions/sentinel-1"
+    },
+    {
+      "name": "ASF DAAC",
+      "roles": [
+        "licensor",
+        "processor",
+        "host"
+      ],
+      "url": "https://hyp3-docs.asf.alaska.edu/guides/burst_insar_product_guide/",
+      "processing:level": "L3",
+      "processing:lineage": "ASF DAAC HyP3 2023 using the hyp3_isce2 plugin version 0.9.1 running ISCE release 2.6.3",
+      "processing:software": {
+        "ISCE2": "2.6.3"
+      }
+    }
+  ],
+  "summaries": {
+    "constellation": [
+      "sentinel-1"
+    ],
+    "platform": [
+      "sentinel-1a",
+      "sentinel-1b"
+    ],
+    "gsd": [
+      20
+    ],
+    "proj:epsg": [
+      32610
+    ]
+  }
+}

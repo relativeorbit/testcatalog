@@ -1,0 +1,24 @@
+{
+  "type": "Catalog",
+  "id": "uw-subsidence",
+  "stac_version": "1.0.0",
+  "description": "https://github.com/relativeorbit/AGU2023",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./uw-subsidence/collection.json",
+      "type": "application/json",
+      "title": "ASF S1 BURST INTERFEROGRAMS"
+    },
+    {
+      "rel": "self",
+      "href": "/home/jovyan/uw-subsidence/AGU2023/catalog.json",
+      "type": "application/json"
+    }
+  ]
+}
