@@ -11,27 +11,7 @@
     },
     {
       "rel": "child",
-      "href": "./2019/catalog.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "child",
-      "href": "./2020/catalog.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "child",
       "href": "./2021/catalog.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "child",
-      "href": "./2022/catalog.json",
-      "type": "application/json"
-    },
-    {
-      "rel": "child",
-      "href": "./2023/catalog.json",
       "type": "application/json"
     },
     {
