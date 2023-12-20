@@ -273,20 +273,6 @@
         "data"
       ]
     },
-    "browse": {
-      "href": "https://d3gm2hf49xd6jj.cloudfront.net/fa8bf7c4-6276-46b6-a51a-da005e3c334e/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F_unw_phase.png",
-      "type": "image/png",
-      "roles": [
-        "overview"
-      ]
-    },
-    "thumbnail": {
-      "href": "https://d3gm2hf49xd6jj.cloudfront.net/fa8bf7c4-6276-46b6-a51a-da005e3c334e/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F_unw_phase_thumb.png",
-      "type": "image/png",
-      "roles": [
-        "thumbnail"
-      ]
-    },
     "metadata": {
       "href": "/vsizip//vsicurl/https://d3gm2hf49xd6jj.cloudfront.net/fa8bf7c4-6276-46b6-a51a-da005e3c334e/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F.zip/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F/S1_135602_IW1_20210711_20210723_VV_INT20_5F4F.txt",
       "type": "text/plain",
